@@ -12,41 +12,6 @@ https://dev.azure.com/timothyhalley/
 ## Github Actions
 https://github.com/timothyhalley/www.cascadezen.com
 
-
-## Sources & Ideas
-- help and gridsome docs
-    - https://gridsome.org/docs/
-
-- Deploy with GITHUB Actions to Azure
-    - https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
-
-- Awesome gridsome
-    - https://github.com/lokecarlsson/awesome-gridsome
-
-- Tailwinds
-    - https://tailwindcss.com
-
-- Origin branch
-    - https://github.com/drehimself/gridsome-portfolio-starter.git
-    - https://www.youtube.com/watch?v=uF3K3IpRfhE
-
-- Inspirational
-    - https://en.wikipedia.org/wiki/Siddhartha_(novel)
-
-- javascript
-    - https://github.com/lydiahallie/javascript-questions#readme
-
-## API data store
-- Solar System data
-    - https://api.le-systeme-solaire.net/rest/bodies
-
-
-## SVG Help
-SVG repo: https://www.svgrepo.com/
-Viso / Mural like too for SVG diags:    https://vecta.io
-NPM module for Bitmap --> SVG:          https://www.npmjs.com/package/imagetracerjs
-NPM package for image converter:        https://www.npmjs.com/package/gulp-image ***
-
 ## Installation
 
 1. Install Gridsome CLI tool: `npm install --global @gridsome/cli`
@@ -72,9 +37,63 @@ NPM package for image converter:        https://www.npmjs.com/package/gulp-image
         - git push -u origin master
         - one should now have a new [master --> master] branch ready for use
 
+    - Setup Static Web app - clean
+        - goto Azure Portal and create a new resource: static web app
+        - select required details: name; region, SKU
+        - Sign in with GitHub
+        - Enter in necessary Source Control Details: Organization (you), repo, branch
+        - Review & create
+        - Build info: app location (/), API (api), app artifact (dist)
+        - Static web app is not liked to Github repo for builds!
+
+    - Setup Static Web app - existing Web App
+        - For existing Web App, on AZ portal for Web App Overview: Deployment history: GitHub Action runs link
+        - This will place you in your GitHub repo with a suggested workflow for Vue.
+        - Select [Set up this workflow] & name your workflow appropatley 
+        - Start Commit --> Commit directly to the master branch. 
+        - Test Action by updating something in repo and commiting via git.
+
+
+## Sources & Ideas
+- Help and gridsome docs
+    - https://gridsome.org/docs/
+
+- Deploy with GITHUB Actions to Azure
+    - https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
+
+- Awesome gridsome
+    - https://github.com/lokecarlsson/awesome-gridsome
+
+- Tailwinds (a gridsome CSS plugin)
+    - https://tailwindcss.com
+
+- Origin branch
+    - https://github.com/drehimself/gridsome-portfolio-starter.git
+    - https://www.youtube.com/watch?v=uF3K3IpRfhE
+
+- Inspirational
+    - https://en.wikipedia.org/wiki/Siddhartha_(novel)
+
+- Javascript
+    - https://github.com/lydiahallie/javascript-questions#readme
+
+## API data store
+- Solar System data
+    - https://api.le-systeme-solaire.net/rest/bodies
+
+
+## SVG Help
+- SVG repo
+    - https://www.svgrepo.com/
+- Viso / Mural like too for SVG diags
+    - https://vecta.io
+- NPM module for Bitmap --> SVG:
+    - https://www.npmjs.com/package/imagetracerjs
+- NPM package for image converter
+    - https://www.npmjs.com/package/gulp-image
+
+
         
-
-
 ## Notes
 
  - Illustrations from [unDraw](https://undraw.co)
@@ -84,9 +103,5 @@ NPM package for image converter:        https://www.npmjs.com/package/gulp-image
     - [Gridsome Starter Bleda](https://github.com/cossssmin/gridsome-starter-bleda)
     - [Jigsaw Starter Blog](https://jigsaw.tighten.co/docs/starter-templates/) - I got a lot of design inspiration from this starter theme.
 
-# Javascript sites
-
-https://github.com/lydiahallie/javascript-questions#readme
-
 # NPM sites
-https://node.dev/post/11-simple-npm-tricks-that-will-knock-your-wombat-socks-off
+- https://node.dev/post/11-simple-npm-tricks-that-will-knock-your-wombat-socks-off
