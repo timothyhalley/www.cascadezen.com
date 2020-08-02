@@ -14,28 +14,30 @@ https://github.com/timothyhalley/www.cascadezen.com
 
 
 ## Sources & Ideas
-    - help and gridsome docs
-        -- https://gridsome.org/docs/
+- help and gridsome docs
+    - https://gridsome.org/docs/
 
-    - Deploy with GITHUB Actions to Azure
-        -- https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
+- Deploy with GITHUB Actions to Azure
+    - https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
 
-    - Awesome gridsome
-        -- https://github.com/lokecarlsson/awesome-gridsome
+- Awesome gridsome
+    - https://github.com/lokecarlsson/awesome-gridsome
 
-    Tailwinds --> https://tailwindcss.com
+- Tailwinds
+    - https://tailwindcss.com
 
-    - Origin branch
-        -- https://github.com/drehimself/gridsome-portfolio-starter.git
-        -- https://www.youtube.com/watch?v=uF3K3IpRfhE
+- Origin branch
+    - https://github.com/drehimself/gridsome-portfolio-starter.git
+    - https://www.youtube.com/watch?v=uF3K3IpRfhE
 
-    - Inspirational
-        -- https://en.wikipedia.org/wiki/Siddhartha_(novel)
+- Inspirational
+    - https://en.wikipedia.org/wiki/Siddhartha_(novel)
 
-    - javascript
-        -- https://github.com/lydiahallie/javascript-questions#readme
+- javascript
+    - https://github.com/lydiahallie/javascript-questions#readme
 
 ## API data store
+- Solar System data
     - https://api.le-systeme-solaire.net/rest/bodies
 
 
