@@ -12,27 +12,31 @@ https://dev.azure.com/timothyhalley/
 ## Github Actions
 https://github.com/timothyhalley/www.cascadezen.com
 
-## Deploy with GITHUB Actions to Azure
-https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
-
-## Awesome GRIDSOME
-https://github.com/lokecarlsson/awesome-gridsome
-
 
 ## Sources & Ideas
-JS --> https://github.com/lydiahallie/javascript-questions#readme
+    - help and gridsome docs
+        -- https://gridsome.org/docs/
 
-Tailwinds --> https://tailwindcss.com
+    - Deploy with GITHUB Actions to Azure
+        -- https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
 
-Origin branch --> https://github.com/drehimself/gridsome-portfolio-starter.git
+    - Awesome gridsome
+        -- https://github.com/lokecarlsson/awesome-gridsome
 
-https://www.youtube.com/watch?v=uF3K3IpRfhE
-https://gridsome.org/docs/
+    Tailwinds --> https://tailwindcss.com
 
-https://en.wikipedia.org/wiki/Siddhartha_(novel)
+    - Origin branch
+        -- https://github.com/drehimself/gridsome-portfolio-starter.git
+        -- https://www.youtube.com/watch?v=uF3K3IpRfhE
 
-## API Store
-https://api.le-systeme-solaire.net/rest/bodies
+    - Inspirational
+        -- https://en.wikipedia.org/wiki/Siddhartha_(novel)
+
+    - javascript
+        -- https://github.com/lydiahallie/javascript-questions#readme
+
+## API data store
+    - https://api.le-systeme-solaire.net/rest/bodies
 
 
 ## SVG Help
@@ -47,7 +51,7 @@ NPM package for image converter:        https://www.npmjs.com/package/gulp-image
 2. Clone the repo: `git clone https://github.com/timothyhalley/cascadezen_www.git www`
 3. `cd www`
 4. `npm i` & `npm audit fix`
-5. `./gg.sh` to build and develop (display file to see actions first)
+5. `./grun.sh` to build and develop (display file to see actions first)
 6. click and launch preferred browser --> `http://localhost:8080`
 
 ## GITHUB - setup github and add to existing repo for this project
@@ -64,7 +68,9 @@ NPM package for image converter:        https://www.npmjs.com/package/gulp-image
         - note the help from github on adding files to new repo via commands starting with git remote
         - git remote add origin https://github.com/[repo-owner]/[repo-name].git
         - git push -u origin master
-        - one should now have a new [master --> master] branch
+        - one should now have a new [master --> master] branch ready for use
+
+        
 
 
 ## Notes
