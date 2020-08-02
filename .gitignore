@@ -3,7 +3,6 @@
 dist/
 src/.temp/
 .cache/
-.github/
 .git/
 
 # Project Build Siles #
