@@ -52,13 +52,13 @@ NPM package for image converter:        https://www.npmjs.com/package/gulp-image
 
 ## GITHUB - setup github and add to existing repo for this project
 
-1. Setup project in github
-    a) In terminal at root directory - run the following commands:
+- Setup project in github
+    - In terminal at root directory - run the following commands:
         - git init
         - git add .
         - git commit -m "satus novum iter"
 
-    b) Add project to your github repo
+    - Add project to your github repo
         - go to github & create a new repo, button top right area.
         - create new repo empty - without README.md as you should have one in project
         - note the help from github on adding files to new repo via commands starting with git remote
