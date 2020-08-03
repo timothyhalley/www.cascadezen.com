@@ -21,7 +21,8 @@ https://github.com/timothyhalley/www.cascadezen.com
 5. `./grun.sh` to build and develop (display file to see actions first)
 6. click and launch preferred browser --> `http://localhost:8080`
 
-## GITHUB - setup github and add to existing repo for this project
+## GITHUB - setup GitHub and add to existing repo for this project
+    `https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started`
 
 - Setup project in github
     - In terminal at root directory - run the following commands:

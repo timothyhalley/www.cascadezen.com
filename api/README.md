@@ -1,0 +1,1 @@
+https://docs.microsoft.com/en-us/azure/static-web-apps/add-api
