@@ -42,16 +42,33 @@ https://github.com/timothyhalley/www.cascadezen.com
         - select required details: name; region, SKU
         - Sign in with GitHub
         - Enter in necessary Source Control Details: Organization (you), repo, branch
+        - Next: Build >
+            - App location = /
+            - API location = api
+            - App artifiact = dist (use same as your build scripts)
+        - Next: tags >
+        - Review & Create >
         - Review & create
-        - Build info: app location (/), API (api), app artifact (dist)
+            - Details
+                - Subscription = [number]
+                - Resource Group = CascadeZen
+                - Name = www
+                - Region = westus2
+                - SKU = Free
+                - Repository = https://github.com/timothyhalley/www.cascadezen.com
+                - Branch = master
+                - App location = /
+                - API location = api
+                - App artifact location = dist
+        - Add Custom Domain to Web App
+            - Custom Domain
+                - review the CNAME value and create/update in your DNS settings the record for this value
+                - DNS Zone - update the alias of your CNAME record with the webapp value
+                - Return to Web App Custom domain once positive confirmation is received to continue
+                - Be aware of any changes may take awhile (up to 48 hours)
+
         - Static web app is not liked to Github repo for builds!
 
-    - Setup Static Web app - existing Web App
-        - For existing Web App, on AZ portal for Web App Overview: Deployment history: GitHub Action runs link
-        - This will place you in your GitHub repo with a suggested workflow for Vue.
-        - Select [Set up this workflow] & name your workflow appropatley 
-        - Start Commit --> Commit directly to the master branch. 
-        - Test Action by updating something in repo and commiting via git.
 
 
 ## Sources & Ideas
