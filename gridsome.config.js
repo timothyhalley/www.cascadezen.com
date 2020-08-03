@@ -69,14 +69,14 @@ module.exports = {
         contentTypeName: 'Post',
         feedOptions: {
           title: 'CascadeZen Blog',
-          feed_url: 'http://localhost:8080/rss.xml',
-          site_url: 'http://localhost:8080/blog'
+          feed_url: 'https://www.cascadezen.com/rss.xml',
+          site_url: 'https://www.cascadezen.com/blog'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'http://localhost:8080' + node.path,
-          author: 'Tim Halley',
+          url: 'https://www.cascadezen.com' + node.path,
+          author: 'The Blue Ox',
           date: node.date
         }),
         output: {
