@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'CascadeZen',
   siteDescription: 'Simple boundary to keep thoughts and inspirations in a single collective...',
-  siteUrl: 'http://localhost:8080',
+  siteUrl: 'https://www.cascadezen.com',
   icon: './src/favicon.svg',
   plugins: [
     {
@@ -46,8 +46,8 @@ module.exports = {
         pathPrefix: '/docs', // Add route prefix. Optional
         template: './src/templates/Documentation.vue', // Optional
         plugins: [
-          [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
-      ],
+          ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
+        ],
       }
     },
     {
@@ -98,7 +98,7 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
+        ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
       ],
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
