@@ -123,3 +123,28 @@ https://github.com/timothyhalley/www.cascadezen.com
 
 # NPM sites
 - https://node.dev/post/11-simple-npm-tricks-that-will-knock-your-wombat-socks-off
+
+
+
+
+
+
+
+
+
+## Development notes:
+
+# queries
+ query {
+    planetoid: allPlanets (filter: { planet: { eq: true }}) {
+      edges {
+        node {
+          id
+          name
+          planet
+          radius
+        }
+      }
+      totalCount
+    }
+  }

@@ -5,29 +5,29 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const axios = require('axios');
+// const axios = require('axios');
 
 module.exports = function (api, options) {
   api.loadSource(async actions => {
 
     // Planet Data for library
-    const { data } = await axios.get('https://api.le-systeme-solaire.net/rest/bodies')
-    const collection = actions.addCollection('Planets')
-    for (const item of data.bodies) {
-      collection.addNode({
-        id: item.id,
-        name: item.name,
-        altname: item.alternativeName,
-        planet: item.isPlanet,
-        mass: item.mass,
-        gravity: item.gravity,
-        radius: item.meanRadius,
-        discoveredby: item.discoveredBy,
-        discoverydate: item.discoveryDate
-      })
-    }
+    // const { data } = await axios.get('https://api.le-systeme-solaire.net/rest/bodies')
+    // const collection = actions.addCollection('Planets')
+    // for (const item of data.bodies) {
+    //   collection.addNode({
+    //     id: item.id,
+    //     name: item.name,
+    //     altname: item.alternativeName,
+    //     planet: item.isPlanet,
+    //     mass: item.mass,
+    //     gravity: item.gravity,
+    //     radius: item.meanRadius,
+    //     discoveredby: item.discoveredBy,
+    //     discoverydate: item.discoveryDate
+    //   })
+    // }
   })
   api.loadSource(async store => {
-    store.addMetadata('message', 'This is a global text')
+    store.addMetadata('message', 'The Blue Ox has spoken...')
   })
 }
