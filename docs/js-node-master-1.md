@@ -1,8 +1,8 @@
 ---
-type: doc
-date: 2020-01-07
-title: Vue Components in Markdown
-excerpt: An example markdown page that has Vue Components inside of it!
+type: code
+date: 2019-03-07
+title: Node JS Development - Async 1
+excerpt: Template to bootstrap an async call to REST API
 ---
 import TestComponent from '~/components/CounterComponent.vue'
 import TransitionComponent from '~/components/TransitionComponent.vue'
@@ -20,6 +20,13 @@ Here is another component from `~/components/TransitionComponent.vue`:
 <hr>
 
 The ability to use Vue Components in Markdown was added in Gridsome v0.7 with the [vue-remark](https://gridsome.org/plugins/@gridsome/vue-remark) plugin.
+
+```js
+isNaN(1) // false
+isNaN('1') // false
+isNaN('abc') // true
+```
+
 
 ```js
 <template>
