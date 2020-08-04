@@ -5,38 +5,12 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'CascadeZen',
-  siteDescription: 'Simple boundary to keep thoughts and inspirations in a single collective...',
-  siteUrl: 'https://www.cascadezen.com',
-  icon: './src/favicon.svg',
+  siteName: 'Gridsome Portfolio Starter',
+  siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
+  siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
-      options: {
-        purgeConfig: {
-          content: [
-            './src/**/*.vue',
-            './src/**/*.js',
-            './src/**/*.jsx',
-            './src/**/*.html',
-            './src/**/*.pug',
-            './src/**/*.md',
-            './docs/**/*.md',
-            './blog/**/*.md',
-          ],
-          whitelist: [
-            'body',
-            'html',
-            'img',
-            'a',
-            'g-image',
-            'g-image--lazy',
-            'g-image--loaded',
-            'active',
-          ],
-          defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-        },
-      }
     },
     {
       use: '@gridsome/vue-remark',
@@ -68,14 +42,14 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'CascadeZen Blog',
-          feed_url: 'https://www.cascadezen.com/rss.xml',
-          site_url: 'https://www.cascadezen.com/blog'
+          title: 'Gridsome Portfolio Starter Blog',
+          feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
+          site_url: 'https://gridsome-portfolio-starter.netlify.com/'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://www.cascadezen.com' + node.path,
+          url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
           author: 'The Blue Ox',
           date: node.date
         }),

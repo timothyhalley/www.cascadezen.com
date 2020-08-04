@@ -1,6 +1,4 @@
 ---
-type: doc
-date: 2020-01-07
 title: Vue Components in Markdown
 excerpt: An example markdown page that has Vue Components inside of it!
 ---
