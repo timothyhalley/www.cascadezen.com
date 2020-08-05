@@ -1,12 +1,12 @@
 ---
-title: How to Get Better At Coding
-path: /how-to-get-better-at-coding
-date: 2019-04-05
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
+title: Quantum Computing Topics
+path: /quantum-computing
+date: 2020-07-21
+summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
 tags: ['coding', 'frontend', 'backend']
 ---
 
-![background](./images/blog_bg_2.jpg)
+![background](./images/zenAtomicTheory.svg)
 
 Lorem ipsum dolor sit amet, [consectetur adipisicing](https://google.ca) elit. Praesentium inventore hic possimus, cum nesciunt ea debitis, tempora officia perferendis vero ratione nam laudantium aliquid voluptatem velit? Open `/src/layouts.vue` and then edit the `main.css` file.
 
@@ -104,4 +104,4 @@ class Foo extends bar
 
 ## Random Image
 
-![mojave](./images/mojave-night.jpg)
+![mojave](./images/zenRiceBowl.svg)
