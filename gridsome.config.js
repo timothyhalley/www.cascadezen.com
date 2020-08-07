@@ -5,9 +5,13 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'CascadeZen Technology Portal',
+  siteName: 'CascadeZen',
   siteDescription: 'Simple boundary to keep thoughts and inspirations in a single collective...',
   siteUrl: 'https://www.cascadezen.com',
+  icon: {
+    favicon: './src/favicon.svg',
+    touchicon: './src/favicon-lg.svg'
+  },
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',

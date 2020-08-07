@@ -117,8 +117,8 @@
 <script>
 export default {
   metaInfo: {
-    title: "☶"
-  }
+    title: "📹",
+  },
 };
 </script>
 
