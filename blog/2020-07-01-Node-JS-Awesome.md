@@ -1,5 +1,5 @@
 ---
-title: Node.JS Awesome
+title: Node JS Awesome
 path: /Node-JS-Awesome
 date: 2020-07-23
 summary: My finding on nodejs for a development platform and future project ideas.
@@ -8,14 +8,11 @@ tags: ['awesome', 'development', 'coding', 'dualality']
 
 ![background](./images/Node.js_logo.svg)
 
-# Node.JS with NPM
+# Node.JS with node package manager
 
 # Project ideas:
 
  1. test
-
-
-
 
 | `Status`        | `Volume`        | `Value`  |
 | --------------- |:---------------:| --------:|
@@ -28,3 +25,5 @@ tags: ['awesome', 'development', 'coding', 'dualality']
 [![Tailwind CSS Tutorial #14 - Icons](http://img.youtube.com/vi/aNmBiqK2uQ0/0.jpg)](http://www.youtube.com/watch?v=aNmBiqK2uQ0)
 
 ![background](./images/zenRiceBowl.svg)
+
+
