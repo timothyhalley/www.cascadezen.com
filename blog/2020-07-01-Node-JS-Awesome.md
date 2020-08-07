@@ -12,10 +12,8 @@ tags: ['awesome', 'development', 'coding', 'dualality']
 
 # Project ideas:
 
- 1. easy
- 2. dual sided
- 3. async
- 4. npm
+ 1. test
+
 
 
 
