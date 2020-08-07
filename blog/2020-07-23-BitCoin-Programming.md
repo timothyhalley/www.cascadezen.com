@@ -1,5 +1,5 @@
 ---
-title: BitCoin
+title: BitCoin Programming
 path: /BitCoin-Programming
 date: 2020-07-23
 summary: Create a working bitcoin monitor with API. Add analysis on the space as this project develops
