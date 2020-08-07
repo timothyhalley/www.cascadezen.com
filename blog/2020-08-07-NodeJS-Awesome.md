@@ -1,9 +1,9 @@
 ---
-title: BitCoin Investing
-path: /BitCoin-Investing
+title: NodeJS Awesome
+path: /nodejs-awesome
 date: 2020-08-07
-summary: Investing in BitCoin
-tags: ['bitcoin', 'api', 'crytocurrancy']
+summary: NodeJS Projects and Technology
+tags: ['nodejs', 'coding', 'programming']
 ---
 
 ![background](./images/zenRiceBowl.svg)
