@@ -4,7 +4,7 @@
       <h2>Solar System Planets Moons and Astroids</h2>
       {{ message }}
       <ul>
-        <!-- <li v-for="edge in $static.planetoid.edges" :key="edge.node.id">{{ edge.node.name }}</li> -->
+        <li v-for="edge in $static.planetoid.edges" :key="edge.node.id">{{ edge.node.name }}</li>
       </ul>
     </div>
   </div>
@@ -27,7 +27,19 @@ export default {
 </script>
 
 <static-query>
-
+query {
+  planetoid: allPlanets (filter: { planet: { eq: true }}) {
+    edges {
+      node {
+        id
+        name
+        planet
+        radius
+      }
+    }
+    totalCount
+  }
+}
 </static-query>
 
 <style>
@@ -40,16 +52,3 @@ export default {
 
 
 // Notes: 
-//  query {
-//     planetoid: allPlanets (filter: { planet: { eq: true }}) {
-//       edges {
-//         node {
-//           id
-//           name
-//           planet
-//           radius
-//         }
-//       }
-//       totalCount
-//     }
-//   }

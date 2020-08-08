@@ -71,7 +71,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Portfolio Starter Blog',
+          title: 'CascadeZen Knowledge Beacon',
           feed_url: 'https://www.cascasezen.com/rss.xml',
           site_url: 'https://www.cascasezen.com/'
         },
@@ -79,7 +79,7 @@ module.exports = {
           title: node.title,
           description: node.summary,
           url: 'www.cascasezen.com' + node.path,
-          author: 'The Blue Ox',
+          author: 'AKA - The Blue Ox',
           date: node.date
         }),
         output: {
