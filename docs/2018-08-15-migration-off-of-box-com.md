@@ -3,20 +3,20 @@ type: project
 title: Migration off of BOX.com for GDPR
 path: /migration-off-box.com
 date: 2018-08-15
-summary: Due to GDPR and security concerns with BOX, the mother company demanded our LoB to cease or face fines. Using the BOX API service, I was able to create a scalable process to move all company data successfully from box.com to Microsoft's O365 onedrive.com solution.
+summary: BOXDue to GDPR and security concerns with BOX, the mother company demanded our LoB to cease or face fines. Using the BOX API service, I was able to create a scalable process to move all company data successfully from box.com to Microsoft's O365 onedrive.com solution.
 tags: ['GDPR', 'coding', 'security', 'API']
 ---
 
 ![background](../static/zenHeavyBox.svg)
 
-> BOX.com - a storage cloud service had several significant concerns about compliance and security. To achieve GDPR mandate and compliance, many of the files in box contained sensitive information that needed to be properly secured. The SaaS solution was not able to conform to these requirements in time for GDPR mandate of March 17, 2018. Secondly, the BOX platform had several security vulnerabilities due to its use dated JDK (java develop kit).
+> BOX.com - a storage collaboration cloud service which we were heavily leveraging could not comply with the required corporate minimum security baseline (MSB). In addition to secure our data using TLS 1.2 or above the GDPR mandate with compliance was yet another gap for this service. We had to migrate all data and ensure compliance by May 2018 otherwise face significant penalties. 
 
 ### Project goals
 
 - **Minimize disruption to active business groups** - Partner with business groups via direct communication channels about project directives. Establish a working model and direction.
-- **Design develop and deliver working solution** - I was in Germany for business when our IT directors reachout to me to solve this issue for them. I had approximately 6 weeks when I returned to complete the initial phase of the project.
-- **4+ terabytes of data** - The company amassed large volumes of data stored on this service. Some was the volumn of data was corporate individuals storing critical files for preservation, sharing and backup purposes. These use cases were important to migrate their data into a personalized sharepoint while preservering access on Microsoft SharePoint.
-- **Scalable Programming Model** - To effectively meet the short timeline and not disrupt individuals (minimize transition time) I had to leverage a highly scable asyncronous process to migrate files. It was important to keep this window to just a few days (weekend migration period). Use of NODEJS was important to create the necessary 
+- **Design develop and deliver working solution** - I was in Germany for business when our IT directors reach out to me to solve this issue for them. I had approximately 6 weeks when I returned to complete the initial phase of the project.
+- **4+ terabytes of data** - The company amassed large volumes of data stored on this service. Some was the volume of data was corporate individuals storing critical files for colaboration, sharing and backup purposes. The data for these teams were important to preserve and replicate on MS SharePoint.
+- **Scalable Programming Model** - To effectively meet the short timeline and not disrupt individuals (minimize transition time) I had to leverage a highly scalable asynchronous process to migrate files. It was important to keep the migration window to just a few days (weekend migration period). Use of Node JS was important to create the required scalable solution to meet the cutover window. 
 - **Vue.js for frontend** - A lightweight and approachable front-end framework.
 - **Auto-optimized code** - Get code-splitting and asset optimization out-of-the-box.
 - **Static files generation** - Deploy securely to any CDN or static web host.
